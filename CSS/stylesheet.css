@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.bgimage{
+    position: absolute;
+    z-index: -1;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.navh1{
+    color: white;
+}
+.navul{
+    
+    list-style-type: none;
+}
+
+.navli{ 
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+}
+
+.nava{
+    color: white;
+    text-decoration: none;
+}
+
+.navclr{
+    color: rgb(245, 147, 163);
+}
+
+.navbutton{
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: rgb(245, 147, 163);
+    border: none;
+    color: white;
+}
+
+.bgbanner{
+    color: white;
+    margin-left: 110px;
+    margin-top: 200px;
+    
+}
+
+.bgbannerh1{
+    font-size: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bgbannerh1color{
+    color: rgb(245, 147, 163);
+}
+
+.bgbannerp{
+    font-size: 20px;
+}
+
+.buttonbanner{
+    background-color: rgb(245, 147, 163);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 280px;
+}
+
+.inputbanner{
+    width: 20%;
+    border: none;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}   
+
+.abcd{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+}
+.section2{
+        float: left;
+        margin: 10px;
+        margin-left: 350px;
+        margin-top: 50px;
+}
+
+.section21{
+    float: right;
+    width: 30%;
+    color: white;
+    text-align: justify;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
+.about{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.clr1{
+    color: rgb(245, 147, 163);
+    
+}
+
+.aboutp{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.aboutbtn{
+    padding: 15px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 30px;
+    color: white;
+    background-color:rgb(245, 147, 163);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 20px;
+}
+.ourser{
+    clear: both;
+}
+
+.ourserv{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.oyrserv{
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 150px;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    
+}
+
+.btnre{
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: rgb(245, 147, 163);
+    color: white;
+    width: 150px;
+}
+
+.let1{
+    color: white;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.but123{
+    padding: 15px;
+    width: 10%;
+    margin-top: 30px;
+    background-color: rgb(245, 147, 163);
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.footerh1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.footerp{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.p11{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+button:hover{
+    background-color: rgb(250, 141, 159); 
+    color: black;
+}
